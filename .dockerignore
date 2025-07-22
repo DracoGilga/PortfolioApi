@@ -1,0 +1,17 @@
+# Ignorar carpetas de build
+bin/
+obj/
+
+*.user
+*.suo
+*.vs/
+.vscode/
+
+secrets.json
+
+Thumbs.db
+*.DS_Store
+
+# Git
+.git/
+.gitignore
