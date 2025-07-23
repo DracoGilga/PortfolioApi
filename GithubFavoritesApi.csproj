@@ -13,4 +13,10 @@
     <PackageReference Include="Octokit" Version="14.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="PrivateFiles/Cesar-Gonzalez-Lopez_CV.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
