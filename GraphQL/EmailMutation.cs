@@ -1,6 +1,5 @@
 using GithubFavoritesApi.Models;
 using GithubFavoritesApi.Services.Interfaces;
-using System.Threading.Tasks;
 
 namespace GithubFavoritesApi.GraphQL
 {

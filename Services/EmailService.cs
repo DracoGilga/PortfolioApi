@@ -1,6 +1,5 @@
 using System.Net;
 using System.Net.Mail;
-using System.Threading.Tasks;
 using GithubFavoritesApi.Services.Interfaces;
 using GithubFavoritesApi.Models;
 using Microsoft.Extensions.Options;
@@ -42,7 +41,7 @@ namespace GithubFavoritesApi.Services
             catch (Exception ex)
             {
                 Console.WriteLine("Error enviando correo: " + ex.Message);
-                throw; // Esto se propaga hacia GraphQL y genera "Unexpected Execution Error"
+                throw;
             }
         }
 

@@ -2,7 +2,6 @@ using GithubFavoritesApi.GraphQL;
 using GithubFavoritesApi.Services;
 using GithubFavoritesApi.Services.Interfaces;
 using GithubFavoritesApi.Models;
-using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 

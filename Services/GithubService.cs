@@ -1,12 +1,7 @@
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
-using System.Threading.Tasks;
 using GithubFavoritesApi.Models;
 using GithubFavoritesApi.Services.Interfaces;
-using Microsoft.Extensions.Configuration;
 
 namespace GithubFavoritesApi.Services;
 
